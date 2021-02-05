@@ -1,0 +1,10 @@
+audio {
+    filter: sepia(70%) saturate(90%) grayscale(10) contrast(100%) invert(100%);
+    width: 500px;
+    height: 25px;
+
+}
+
+.img-fluid{
+max-width: 500px;
+}
