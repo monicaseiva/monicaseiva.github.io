@@ -1,0 +1,57 @@
+/*HEADER*/
+.menu-principal{
+    background:black;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky; 
+    top: 0;
+    z-index:30;
+}
+
+.new-menu{
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: bolder;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2.5px;
+    padding-left: 20px;
+    padding-top: 5px
+}
+
+.new-menu:hover{
+    color: hotpink;
+    text-decoration: hotpink;
+}
+
+/*FOOTER*/
+
+
+.footer{
+    background:#12181c;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.img-footer{
+    max-width: 30px;
+    height: auto;
+    padding: 4px;
+    text-align: center;
+}
+.img-footer:hover{
+    transform: scale(1.5, 1.5);
+    transition: 0.4s;
+}
+
+.icon-footer{
+    background: #12181c;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+
