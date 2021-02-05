@@ -1,0 +1,16 @@
+video{
+  
+    position: fixed ;
+    object-fit: contain;
+}
+
+.agenda{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+}
+
+.table{
+    color: white;
+    white-space: nowrap;
+}
