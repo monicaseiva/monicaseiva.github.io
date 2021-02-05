@@ -1,0 +1,82 @@
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: yellow;
+  }
+
+  .col-xs-4:hover .overlay{
+   opacity: 1;
+  }
+
+ .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 300px;
+    width: 300px;
+    opacity: 0;
+    transition:.5s;
+    background-color: rgb(255, 105, 180, 0.6);
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .shop {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .p-centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #e0dfdf31;
+  }
+
+  .ctg-name{
+    display: inline-block;
+  }
+
+
+.product-t{
+      width: 220px;
+      height: 300px;
+      object-fit: contain;
+  }
+
+
+
+ @media only screen and (max-width: 990px) {
+  .menu-desktop{
+display: none;
+  }
+.banner-shop{
+  display:none;
+}
+}
+
+@media only screen and (min-width: 990px) {
+  .menu-mobile{
+display: none;
+  }
+}
+
+.dropdown-item:active{
+  background-color:hotpink;
+}
+
+.category:active{
+  color: white;
+}
