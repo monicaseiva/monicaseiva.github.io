@@ -1,0 +1,148 @@
+.cover-img{
+    width: 380px;
+    height: 380px;
+    position: relative;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.cover-img:hover{
+transform: scale(1.05, 1.05);
+transition: 0.4s;
+}
+#video-bg {
+    position: relative;
+    top: 0; right: 0; bottom: 0; left: 0;
+  }
+  @supports (object-fit: none) {
+    #video-bg > video {
+      top: 10px; left: 0;
+      width: 100%; max-height: 400px ;
+      object-fit: cover;
+    }
+  }
+
+  .row-dsc{
+    margin-left: -90px;
+    margin-right: -90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    
+}
+
+  .modal-title{
+      text-align: center;
+      margin:auto;
+      color:black;
+  }
+
+.img-modal{
+    max-width: 300px; 
+    height:auto; 
+    margin: auto;
+}
+
+.li{
+    display: inline-block;
+    width: 700px;
+    box-align: center;
+}
+
+ol{
+    margin: auto;
+}
+
+.spotify{
+    padding-top: 20px;
+}
+
+.table{
+  margin: auto;
+  width: 400px;
+}
+
+td{
+  padding: 10px;
+}
+
+
+
+.cover-img1{
+  width: 380px;
+  height: 380px;
+  position: relative;
+ ;
+}
+
+.col-lg-4:hover .overlay{
+  opacity: 1;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    height: 380px;
+    width: 380px;
+    opacity: 0;
+    transition:.5s;
+    background-color: rgb(255, 105, 180, 0.6);
+  }
+
+.unavailable {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+.img-dsc{
+  width: 380px;
+    height: 380px;
+    object-fit: cover;
+    padding: 3%
+}
+
+.img-dsc-mobile{
+  width: 100px;
+    height: 100px;
+}
+
+.dsc-name-mobile{
+  padding-top:8%;
+  margin-left: 15px;
+  font-size: 12pt;
+  color: white;
+}
+
+.row-mb{
+  background-color: grey;
+border: 1px solid white;
+}
+
+.row-mb:active{
+  background-color: pink;
+}
+
+@media only screen and (max-width: 768px) {
+  .dkt-version{
+display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mob-version{
+display: none;
+  }
+}
