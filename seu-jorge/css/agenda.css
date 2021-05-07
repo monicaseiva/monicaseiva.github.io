@@ -1,8 +1,4 @@
-video{
-  
-    position: fixed ;
-    object-fit: contain;
-}
+
 
 .agenda{
     position: relative;
@@ -13,4 +9,38 @@ video{
 .table{
     color: white;
     white-space: nowrap;
+}
+
+/* Mobile*/
+@media only screen and (max-width: 768px) {
+    .venue, .time{
+display: none;
+  }
+.myVideo{
+    max-height: 100%;
+}
+
+    video{
+        position: fixed;
+        object-fit: contain;
+        margin-left: 15%;
+        margin-right: 25%;
+    }
+}
+
+  /* Desktop*/
+@media only screen and (min-width: 768px) {
+    .myVideo{
+        max-width: fit-content;
+        text-align: center;
+    }
+    .mx-auto{
+        align-self: center;
+    }
+    video{
+        position: absolute;
+        object-fit: fill;
+        width: 100%;
+        text-align: center;
+    }
 }
