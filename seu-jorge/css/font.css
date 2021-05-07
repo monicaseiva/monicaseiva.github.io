@@ -1,5 +1,5 @@
 .p-banner{
-    font-family: futura-pt, sans-serif;
+    font-family: 'Montserrat';
     font-size: 12pt;
     color: white;
     background-color: black;
@@ -41,7 +41,7 @@ p{
 }
 
 .title-tracklist{
-    font-family: futura-pt, sans-serif;
+    font-family: 'Montserrat';
     font-weight: 500;
     font-style: normal;
     font-size: 15px;
