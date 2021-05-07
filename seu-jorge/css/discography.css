@@ -1,4 +1,4 @@
-.cover-img{
+.img-dsc{
     width: 380px;
     height: 380px;
     position: relative;
@@ -6,7 +6,7 @@
     object-fit: cover;
 }
 
-.cover-img:hover{
+.img-dsc:hover{
 transform: scale(1.05, 1.05);
 transition: 0.4s;
 }
@@ -145,4 +145,8 @@ display: none;
   .mob-version{
 display: none;
   }
+  .dsc-name{
+    margin-left: 11px;
+  }
 }
+
