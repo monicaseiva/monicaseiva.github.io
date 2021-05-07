@@ -5,6 +5,7 @@
     -webkit-column-gap: 30px;
     -moz-column-gap:30px;
     column-gap: 30px;
+    font-family: 'Montserrat';
 
 }
 
@@ -15,12 +16,15 @@
   }
   .p-banner{
       display: none;
+      font-family: 'Montserrat';
   }
   .content{
       margin: 25px;
+      font-family: 'Montserrat';
   }
   .titulo{
       padding-top: 40px;
+      font-family: 'Montserrat';
   }
   }
   
