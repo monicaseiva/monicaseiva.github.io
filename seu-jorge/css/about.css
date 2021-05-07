@@ -7,3 +7,26 @@
     column-gap: 30px;
 
 }
+
+@media only screen and (max-width: 768px) {
+    .image-fluid{
+  max-width: 100%;
+  padding-top: 19%;
+  }
+  .p-banner{
+      display: none;
+  }
+  .content{
+      margin: 25px;
+  }
+  .titulo{
+      padding-top: 40px;
+  }
+  }
+  
+@media only screen and (min-width: 768px) {
+    .image-fluid{
+  max-width: 500px;
+  padding-top: 11%;
+    }
+  }
